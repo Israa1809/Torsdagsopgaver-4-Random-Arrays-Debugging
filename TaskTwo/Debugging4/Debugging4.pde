@@ -1,3 +1,5 @@
+boolean jobsDone = true;
+
 void setup()
 {
   if (isJobDone())
@@ -8,5 +10,5 @@ void setup()
 
 boolean isJobDone()
 {
-  return true;
+  return jobsDone;
 }
